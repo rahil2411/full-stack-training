@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  color: #269aff;
+}
+
+div {
+  text-align: center;
+  padding-top: 5%;
+}
+div {
+  color: #269aff;
+}
+
+button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+}
+
+button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+button:hover,
+button:focus {
+  background-color: #269aff;
+  color: white;
+}
